@@ -18,4 +18,12 @@ public class ArrayOps{
     return ans;
   }
 
+  public static int[] sumRows(int[][] matrix) {
+    int[] ans = new int[matrix.length];
+    for (int i = 0; i < matrix.length; i++) {
+      ans[i] += sum(matrix[i]);
+    }
+    return ans;
+  }
+
 }

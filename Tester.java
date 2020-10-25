@@ -7,10 +7,14 @@ public class Tester{
                };
     int[]  B  =   {  1, 3, 5 };
 
+    //Part 4
     System.out.println( ArrayOps.sum(B));
     System.out.println( Arrays.toString(ArrayOps.sumRows(A)));
     System.out.println(Arrays.toString(ArrayOps.largestInRows(A)));
     System.out.println( ArrayOps.sum(A));
+
+    //Part 5
+    System.out.println( Arrays.toString(ArrayOps.sumCols(A)));
 
   }
 }
